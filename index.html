@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Recipes</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <span class="logo">
+                <a href="/">Food</a>    
+            </span>
+
+            <nav class="navigation-header">
+                <a href="#">Inicio</a>
+                <a href="#">Recetas</a>
+                <a href="#">Blog</a>
+                <a href="#">Contacto</a>
+                <a href="#">Nosotros</a> 
+            </nav>
+
+            <ul class="social-links">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="btn-menu-responsive">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            
+            <div class="menu-mobile">
+                <div class="btn-close">
+                    <i class="fa-solid fa-x"></i>
+                </div> 
+
+                <span class="logo"> 
+                    <a href="/">Food</a>
+                </span>
+
+                <nav class="navigation-mobile">
+                    <a href="#">Inicio</a>
+                    <a href="#">Recetas</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Nosotros</a>
+                </nav>
+
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>   
+        
+        <section class="container section-banner-hero">
+            <div class="content">
+                <span class="badge-hot-recipes">
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                    Recetas Calientes
+                </span>
+
+
+                <h1>Alitas de pollo picantes</h1>
+                
+                <p>
+                    "Crujientes, sabrosas y perfectamente condimentadas:
+                    Disfruta de la receta definitiva de deliciosas alitas de 
+                    pollo que le dejaran con ganas de mas"
+                </p>
+        
+                <div class="badges">
+                    <span>
+                        <i class="fa-solid fa-clock"></i>
+                        30 minutos
+                    </span>
+            
+                    <span>
+                        <i class="fa-solid fa-utensils"></i>
+                        Pollo
+                    </span>
+                </div>
+                
+                <button>
+                    Ver Recetas
+                    <i class="fa-solid fa-circle-play"></i>
+                </button>
+            </div>   
+    
+            <div class="container-img">
+                <img 
+                src="/img/img-banner-hero.webp"
+                alt="Imagen Banner Hero" />
+            </div>
+        </section>
+
+        <section class="container section-categories">
+            <div class="header">
+                <h2>Categorias</h2>
+
+                <a href="#" class="btn-all-categories">
+                    Ver todas las categorias
+                </a>
+            </div>
+
+            <div class="list-card-categories">
+                <div class="card-category breakfast">
+                    <img src="img/icono-desayuno.svg" alt="Icono Deasayuno" />
+                     <p>Desayuno</p>
+                </div>
+                <div class="card-category vegan">
+                    <img src="/img/icono-vegano.svg" alt="Icono Vegano" />
+                     <p>Vegano</p>
+                </div>
+                <div class="card-category meat">
+                    <img src="img/icono-carne.svg" alt="Icono Carne" />
+                     <p>Carne</p>
+                </div>
+                <div class="card-category desert">
+                    <img src="img/icono-cake.svg" alt="Icono Postre" />
+                     <p>Postre</p>
+                </div>
+                <div class="card-category chocolate">
+                    <img src="img/icono-chocolate.svg" alt="Icono Chocolate" />
+                     <p>Chocolate</p> 
+                </div>
+            </div>
+        </section>
+
+        <main class="container">
+            <h2>Recetas sencillas y sabrosas</h2>
+            <p>
+                Delicias culinarias para mejorar tu cosina diaria.
+                Descubre comidas rapidas y deliciosas que impresionaran a sus 
+                invitados y haran de cada comida una ocacion especial.
+            </p>
+            
+            <div class="list-card-recipes">
+                <div class="card-recipe">
+                        <div class="container-img-recipe">
+                            <img src="/img/img-recipe-1.webp" alt="Imagen Receta" />
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="content">
+                            <h3>Pancakes de avena y fresa con jarabe de miel</h3>
+                            <div class="footer">
+                                <span class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    30 minutos
+                                </span>
+                                <span class="category">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Desayuno
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-recipe">
+                        <div class="container-img-recipe">
+                            <img src="/img/img-recipe-2.webp" alt="Imagen Receta" />
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="content">
+                            <h3>Salmón asado con lima fresca y salsa de jengibre</h3>
+                            <div class="footer">
+                                <span class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    30 minutos
+                                </span>
+                                <span class="category">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Pescado
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-recipe">
+                        <div class="container-img-recipe">
+                            <img src="/img/img-recipe-3.webp" alt="Imagen Receta" />
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="content">
+                            <h3>Gran Hamburguesa de carne de res</h3>
+                            <div class="footer">
+                                <span class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    30 minutos
+                                </span>
+                                <span class="category">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Aperitivo
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-recipe">
+                        <div class="container-img-recipe">
+                            <img src="/img/img-recipe-4.webp" alt="Imagen Receta" />
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="content">
+                            <h3>Ensalada mixta saludable y fresca con mayonesa</h3>
+                            <div class="footer"> 
+                                <span class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    30 minutos
+                                </span>
+                                <span class="category">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Saludable
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-recipe">
+                        <div class="container-img-recipe">
+                            <img src="/img/img-recipe-5.webp" alt="Imagen Receta" />
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="content">
+                            <h3>Albóndigas de pollo con queso crema</h3>
+                            <div class="footer"> 
+                                <span class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    30 minutos
+                                </span>
+                                <span class="category">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Carne
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-recipe">
+                        <div class="container-img-recipe">
+                            <img src="/img/img-recipe-6.webp" alt="Imagen Receta" />
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="content">
+                            <h3>Pasta cremosa de pollo y tocino</h3>
+                            <div class="footer"> 
+                                <span class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    30 minutos
+                                </span>
+                                <span class="category">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Fídeos
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-recipe">
+                        <div class="container-img-recipe">
+                            <img src="/img/img-recipe-7.webp" alt="Imagen Receta" />
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="content">
+                            <h3>Pancakes de avena y fresa con jarabe de miel</h3>
+                            <div class="footer"> 
+                                <span class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    30 minutos
+                                </span>
+                                <span class="category">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Aperitivo
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-recipe">
+                        <div class="container-img-recipe">
+                            <img src="/img/img-recipe-8.webp" alt="Imagen Receta" />
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="content">
+                            <h3>Arroz con pollo y verduras en una sola olla</h3>
+                            <div class="footer"> 
+                                <span class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    30 minutos
+                                </span>
+                                <span class="category">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Aperitivo
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-message">
+                        <p>¡No olvides comer comida saludable!</p>
+
+                        <img src="/img/plate-food.png"
+                             alt="Plato de comida saludable"
+                        />
+                    </div>
+                </div>
+        </main>
+
+        <section class="container section-chef">
+            <div class="content">
+                <h2>Cada uno puede ser chef en su propia cocina</h2>
+                <p>
+                    Descubra recetas faciles y deliciosas para dar rienda suelta
+                    al artista culinario que lleva dentro y hacer dee cada comida
+                    una obra maestra.
+                </p>
+                <button class="btn">Aprender mas</button>      
+            </div>
+            <div class="container-img-chef">
+                <img src="/img/img-chef.png" alt="">
+            </div>
+        </section> 
+
+       <script src="index.js"></script>
+   </body>
+</html>
