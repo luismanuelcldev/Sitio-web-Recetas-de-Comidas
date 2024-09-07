@@ -1,12 +1,14 @@
 # Sitio Web de Recetas de Comidas
 
-¡Bienvenido al proyecto del Sitio Web de Recetas de Comidas! Este sitio web es una plataforma interactiva donde los usuarios pueden explorar una variedad de recetas deliciosas.
+¡Bienvenidos a la Pagina Web de Recetas de Comidas! En este sitio web, los usuarios podran explorar una gran variedad de recetas deliciosas.
+
+![Texto alternativo](img/Captura1.png)
+
 
 ## Tabla de Contenidos
 
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Características](#características)
-- [Demostración](#demostración)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Instalación](#instalación)
@@ -17,7 +19,7 @@
 
 ## Descripción del Proyecto
 
-Este sitio web está diseñado para compartir recetas culinarias, proporcionando a los usuarios una interfaz amigable y atractiva para descubrir y disfrutar de diversas categorías de recetas. Con un diseño responsivo, el sitio es accesible desde cualquier dispositivo.
+Esta Pagina web está desarrollada para compartir recetas culinarias, proporcionando a los usuarios una interfaz amigable y atractiva, para descubrir y disfrutar de diversas categorías de recetas. Con un diseño responsivo, el sitio es accesible desde cualquier dispositivo.
 
 ## Características
 
@@ -28,9 +30,16 @@ Este sitio web está diseñado para compartir recetas culinarias, proporcionando
 - **Menú Móvil**: Acceso fácil en dispositivos móviles.
 - **Estilos Modernos**: Utiliza CSS para un diseño atractivo.
 
-## Demostración
+## Imagenes relacionadas a estas caracteristicas
 
-Puedes ver una demostración en vivo del proyecto aquí: [Demo del Sitio Web](URL_DE_TU_DEMO)
+![Texto alternativo](img/Captura2.png)
+![Texto alternativo](img/Captura3.png)
+![Texto alternativo](img/Captura4.png)
+![Texto alternativo](img/Captura5.png)
+![Texto alternativo](img/Captura6.png)
+![Texto alternativo](img/Captura7.png)
+
+
 
 ## Tecnologías Utilizadas
 
